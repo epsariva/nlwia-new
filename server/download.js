@@ -1,8 +1,8 @@
 import ytdl from "ytdl-core"
 import fs from "fs"
-import { error } from "console"
-import { resolve } from "path"
-import { rejects } from "assert"
+//import { error } from "console"
+//import { resolve } from "path"
+//import { rejects } from "assert"
 
 export const download = (videoID) =>
   new Promise((resolve, reject) => {
